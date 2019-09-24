@@ -1,0 +1,5 @@
+{
+    "autoload": {
+        "psr-4":{"MyCompany\\Contact\\": "MyCompany/Contact/"}
+    }
+}

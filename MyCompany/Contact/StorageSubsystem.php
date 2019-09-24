@@ -8,9 +8,5 @@ abstract class StorageSubsystem
         ;
     }
     
-    public function createPathRequest():PathRequest {
-        ;
-    }
-    
 }
 

@@ -9,8 +9,5 @@ class StorageSubsystemDB extends StorageSubsystem
         return new ContactStorageDB('localhost', 'mydb', 'test', '123');
     }
     
-    public function createPathRequest():PathRequest {
-        return new PathRequestDB();
-    }
     
 }

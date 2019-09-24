@@ -9,9 +9,5 @@ class StorageSubsystemFile extends StorageSubsystem
         return new ContactStorageFile('load/','file1.txt');
     }
     
-    public function createPathRequest():PathRequest {
-        return new PathRequestFile();
-    }
-    
 }
 
